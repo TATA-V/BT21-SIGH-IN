@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="icon" href="./images/icon2.png" />
+    <title>BT21 SIGN IN</title>
+  </head>
+  <body>
+    <div class="container">
+      <main>
+        <h1>Sign In</h1>
+        <fieldset>
+          <label for="username">User Name</label>
+          <input type="text" id="username" placeholder="아이디" />
+          <div class="success-message hide">사용할 수 있는 아이디입니다</div>
+          <div class="failure-message hide">아이디는 네 글자 이상이어야 합니다</div>
+        </fieldset>
+
+        <fieldset>
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="비밀번호" />
+        </fieldset>
+
+        <fieldset>
+          <label for="password-retype">Password Check</label>
+          <input type="password" id="password-retype" placeholder="비밀번호 확인" />
+          <div class="mismatch-message hide">비밀번호가 일치하지 않습니다</div>
+        </fieldset>
+
+        <div class="forgot-link-box">
+          <a class="forgot-link" href="#" target="_blank"><span class="forgot">FORGOT PASSWORD?</span></a>
+        </div>
+
+        <fieldset class="signup">
+          <button class="sigup-btn">SIGN IN</button>
+        </fieldset>
+
+        <div class="signup-link-box">
+          <a class="signup-link" href="#" target="_blank"><span class="signup-text">Don't have an account? Sign up</span></a>
+        </div>
+
+        <div class="comments">
+          <span class="conmments-text">20% discount gift in celebration of the New Year</span><br />
+          <span class="conmments-text">at LINE FRIENDS CREATOR!</span><br />
+          <a class="bt21-link" href="https://creator.linefriends.com/en/bt21" target="_blank"><span class="bt21-link-txt">GO BT21 STORE</span></a>
+        </div>
+
+        <div class="arrow-container">
+          <div class="icon-left">
+            <i class="bx bx-chevron-left"></i>
+          </div>
+          <div class="icon-right">
+            <i class="bx bx-chevron-right"></i>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

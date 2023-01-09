@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500&family=Nunito+Sans:ital,wght@0,200;1,200;1,700&family=Poppins:wght@300;500;600;700;900&family=Rubik+Bubbles&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap");
+/* "Rubik Bubbles" */
+
+body {
+  font-family: "Poppins", "cursive", sans-serif;
+}
+
+:root {
+  --color-white: #ffffff;
+  --color-orange: #f9b17a;
+  --color-indigo: #2d3250;
+  --color-middle-indigo: #424769;
+  --color-light-indigo: #676f9d;
+}
